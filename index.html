@@ -304,11 +304,12 @@
 <ul>
 <li>通过用户的check-in sequence构建POIGraph<ul>
 <li>Motivation：如果两个POI出现在同一条check-in sequence中，并先后被访问过，就可以在它们之间建立一条边。本质上是利用用户的check-in sequence中POI的共现来获得POI之间的关系。之后利用类似于skip-gram的方法得到node embedding</li>
-<li>场景：假如用户已经在时间t之前在若干个POI check-in了，要在当前时刻给用户推荐他有可能玩的POI</li>
+<li>场景：假如用户已经在时间t之前在若干个POI check-in了，要在当前时刻给用户推荐他有可能玩的POI。POI有side information,比如经度纬度等</li>
 <li>收获：可以利用user check-in 的数据构建POI Graph</li>
 </ul>
 </li>
 </ul>
+<p><img src="https://raw.githubusercontent.com/namenotexist/FigureBed/master/20190704173802.png" alt></p>
 
           
         
