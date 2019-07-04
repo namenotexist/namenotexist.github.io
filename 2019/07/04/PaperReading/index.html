@@ -88,7 +88,8 @@
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://raw.githubusercontent.com/namenotexist/FigureBed/master/20190704160229.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/namenotexist/FigureBed/master/20190704173802.png">
-<meta property="og:updated_time" content="2019-07-04T10:49:52.766Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/namenotexist/FigureBed/master/20190704185253.png">
+<meta property="og:updated_time" content="2019-07-04T11:02:32.863Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PaperReading">
 <meta name="twitter:description" content="通过用户的check-in sequence构建POIGraph Motivation：如果两个POI出现在同一条check-in sequence中，并先后被访问过，就可以在它们之间建立一条边。本质上是利用用户的check-in sequence中POI的共现来获得POI之间的关系。之后利用类似于skip-gram的方法得到node embedding 场景：假如用户已经在时间t之前在若干个">
@@ -312,6 +313,11 @@
 </li>
 </ul>
 <p>&nbsp;<br><img src="https://raw.githubusercontent.com/namenotexist/FigureBed/master/20190704173802.png" alt></p>
+<ul>
+<li>Graph Convolution Network作为encoder用于获得node 的embedding</li>
+<li>bilinear decoder预测两个点之间的边的值</li>
+<li>场景是预测用户对商品（音乐，电影）的打分<br><img src="https://raw.githubusercontent.com/namenotexist/FigureBed/master/20190704185253.png" alt></li>
+</ul>
 
       
     </div>
