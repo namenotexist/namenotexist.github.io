@@ -98,7 +98,7 @@
 <meta property="og:image" content="https://raw.githubusercontent.com/namenotexist/FigureBed/master/20190705162812.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/namenotexist/FigureBed/master/20190705172827.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/namenotexist/FigureBed/master/20190707164802.png">
-<meta property="og:updated_time" content="2019-07-07T08:48:17.809Z">
+<meta property="og:updated_time" content="2019-07-07T14:52:07.539Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PaperReading">
 <meta name="twitter:description" content="通过用户的check-in sequence构建POIGraph Motivation：如果两个POI出现在同一条check-in sequence中，并先后被访问过，就可以在它们之间建立一条边。本质上是利用用户的check-in sequence中POI的共现来获得POI之间的关系。之后利用类似于skip-gram的方法得到node embedding 场景：假如用户已经在时间t之前在若干个">
@@ -355,6 +355,21 @@
 </li>
 </ul>
 <p>&nbsp;<br>&nbsp;<br>IJCAL2018<br><img src="https://raw.githubusercontent.com/namenotexist/FigureBed/master/20190707164802.png" alt></p>
+<ul>
+<li>Key idea<ul>
+<li>Skip-gram to train poi embedding in check-in sequence which  captures the geographical influence of POIs ( and more…)</li>
+<li>the text content layer captures the characteristics of POIs from the text, which is the Textual Influence</li>
+</ul>
+</li>
+<li>task<ul>
+<li>POI recommendation</li>
+</ul>
+</li>
+<li>Some thought<ul>
+<li>We can construct a graph which contain word and POI to get POI embedding</li>
+</ul>
+</li>
+</ul>
 
       
     </div>
